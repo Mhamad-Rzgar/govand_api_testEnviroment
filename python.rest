@@ -1,0 +1,88 @@
+
+
+get http://127.0.0.1:5000/mysql
+
+###
+POST http://127.0.0.1:5000/mysql
+content-type: application/json
+
+{
+    "imageName" : "mysql",
+    "imageData": "mysql data"
+}
+
+# ////////////////////////////////////////////////////////////////////////////////////
+
+
+###
+get http://127.0.0.1:5000/access
+
+###
+POST http://127.0.0.1:5000/access
+content-type: application/json
+
+{
+    "imageName" : "accesssss",
+    "imageData": "ass datatattatatta"
+}
+
+# ////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+###
+get http://127.0.0.1:5000/sqlserver
+
+
+
+###
+POST http://127.0.0.1:5000/sqlserver
+content-type: application/json
+
+{
+    "imageName" : "accesssss",
+    "imageData": "ass datatattatatta"
+}
+
+
+
+# ////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+###
+get http://127.0.0.1:5000/oracle
+
+
+
+###
+POST http://127.0.0.1:5000/oracle
+content-type: application/json
+
+{
+    "imageName" : "test oracle db 2",
+    "imageData": "oracle post dummy data"
+}
+
+
+
+# ////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ////////////////////////////////////////////////////////////////////////////////////

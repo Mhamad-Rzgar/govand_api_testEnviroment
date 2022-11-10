@@ -1,0 +1,69 @@
+
+
+# 200
+# 404
+# mysql
+Get http://localhost/masterServer/index.php/api/mysql
+
+
+
+
+# 200
+# 404
+### mysql
+POST http://localhost/masterServer/index.php/api/mysql
+Content-Type: application/json
+
+{
+    "imageName" : "nazanm",
+    "imageData": "mysql data php"
+}
+
+
+
+# 200
+# 404
+### access
+Get http://localhost/masterServer/index.php/api/access
+
+
+
+# 200
+# 404
+### access
+POST http://localhost/masterServer/index.php/api/access
+Content-Type: application/json
+{
+    "imageName" : "nazanm",
+    "imageData": "mysql data 12"
+}
+
+
+
+###
+Get http://localhost/masterServer/index.php/api/sqlServer
+
+###
+POST http://localhost/masterServer/index.php/api/sqlServer
+Content-Type: application/json
+
+{
+    "imageName" : "nazanm",
+    "imageData": "mysql 23 42"
+}
+
+
+
+###
+Get http://localhost/masterServer/index.php/api/oracle
+
+###
+POST http://localhost/masterServer/index.php/api/oracle
+Content-Type: application/json
+
+{
+    "imageName" : "nazanm",
+    "imageData": "mysql oracle 42"
+}
+
+
