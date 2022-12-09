@@ -1,69 +1,41 @@
-
-
-# 200
-# 404
 # mysql
 Get http://localhost/masterServer/index.php/api/mysql
 
-
-
-
-# 200
-# 404
 ### mysql
 POST http://localhost/masterServer/index.php/api/mysql
-Content-Type: application/json
+Content-Type: application/x-www-form-urlencoded
 
-{
-    "imageName" : "nazanm",
-    "imageData": "mysql data php"
-}
+imageData=base64&imageName=fileName
 
 
-
-# 200
-# 404
 ### access
 Get http://localhost/masterServer/index.php/api/access
 
-
-
-# 200
-# 404
 ### access
 POST http://localhost/masterServer/index.php/api/access
-Content-Type: application/json
-{
-    "imageName" : "nazanm",
-    "imageData": "mysql data 12"
-}
+Content-Type: application/x-www-form-urlencoded
 
+imageData=base64&imageName=fileName
 
+.
 
-###
+### sql server
 Get http://localhost/masterServer/index.php/api/sqlServer
 
-###
+### sql server
 POST http://localhost/masterServer/index.php/api/sqlServer
-Content-Type: application/json
+Content-Type: application/x-www-form-urlencoded
 
-{
-    "imageName" : "nazanm",
-    "imageData": "mysql 23 42"
-}
+imageData=base64&imageName=fileName
 
 
 
-###
+### oracle
 Get http://localhost/masterServer/index.php/api/oracle
 
-###
+
+### oracle
 POST http://localhost/masterServer/index.php/api/oracle
-Content-Type: application/json
+Content-Type: application/x-www-form-urlencoded
 
-{
-    "imageName" : "nazanm",
-    "imageData": "mysql oracle 42"
-}
-
-
+imageData=base64&imageName=fileName
